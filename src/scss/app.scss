@@ -1,9 +1,5 @@
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';
-@import '../scss/variables.scss';
-@import '../Modules/style.scss';
+@import './Modules/_style.scss';
+@import './Modules/_variables.scss';
 
 
-body {
-    background-color: red;
-    color: white;
-}
