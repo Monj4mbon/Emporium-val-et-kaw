@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* font-family: 'Roboto', sans-serif; */
+
+body {
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* HEADER */
+/* HEADER */
+
+/* logo */
+header .logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+.logo img {
+    width: 15%;
+}
+
+/* navbar */
+.nav {
+    display: flex;
+    justify-content: center;
+}
+.nav li {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0em 2em 0em 2em;
+    font-size: 0.9em;
+}
+
+.nav li a {
+    color: black;
+    text-decoration: none;
+}
+
+.nav li button {
+    padding: 0.5em;
+    background-color: grey;
+    color: white;
+}
+/* HEADER */
+/* HEADER */
+
+
+
+/* BANNER */
+/* BANNER */
+.banner {
+    background-image: url(../../../public/img/slider-1.jpg);
+    background-repeat: no-repeat;
+    background-position: 75%;
+    height: 33em;
+    background-size: 33%;
+    background-color: whitesmoke;
+    margin-top: 1em;
+    padding-left: 13em; 
+    
+}
+
+.banner h3 {
+    color: red;
+    padding-top: 3em;
+    font-size: 2.5em;
+}
+
+.banner img {
+    width: 28%
+}
+
+.banner p {
+    padding-top: 0.5em;
+}
+
+.banner button {
+    padding: 1em 2em;
+    background-color: red;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    font-size: 0.8em;
+}
+/* BANNER */
+/* BANNER */
+
+

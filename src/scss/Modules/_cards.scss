@@ -1,0 +1,70 @@
+.vente {
+    text-align: center;
+    .titre {
+        h3 {
+            font-weight: bold;
+        }
+    }
+    .lignes {
+        display: flex;
+        justify-content: center;
+        .cards {
+            img {
+                height: 200px;
+                width: 250px;
+                margin: 10px;
+            }
+            .cards-écrits {
+                display: flex;
+                flex-direction: column;
+                .nom-prod {
+                    font-weight: bold;
+                    padding-bottom: 5px;
+                }
+                .prix {
+                    font-weight: bold;
+                    color: red;
+                }
+            }
+        }
+    }
+}
+
+.vente {
+    .cards-écrits-réduc {
+        display: flex;
+        justify-content: center;
+        .réduc {
+            border-radius: 50%;
+            background-color: red;
+            height: 60px;
+            width: 60px;
+            margin-right: 10px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            .Sale {
+                color: white;
+            }
+        }
+        .div-prix {
+            display: flex;
+            flex-direction: column;
+            margin-left: 10px;
+            .nom-prod {
+                font-weight: bold;
+                padding-bottom: 5px;
+            }
+            .prix {
+                font-weight: bold;
+                color: red;
+            }
+            .prix-barré {
+                text-decoration: line-through;
+                color: rgba(0, 0, 0, 0.336);
+                margin-right: 5px;
+            }
+        }
+    }
+}

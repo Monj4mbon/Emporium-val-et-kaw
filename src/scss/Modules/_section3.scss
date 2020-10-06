@@ -1,0 +1,24 @@
+.section3 {
+    div {
+        background-image: url('../../../public/images/cta-bg.jpg');
+        background-repeat: no-repeat;
+        background-position: 75%;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        h1 {
+            color: white;
+        }
+        button {
+            color: white;
+            background-color: red;
+            margin-right: 600px;
+            margin-left: 600px;
+            border: none;
+            padding: 5px;
+            border-radius: 5px;
+        }
+    }
+}
