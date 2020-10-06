@@ -89,3 +89,78 @@ header .logo {
 /* BANNER */
 
 
+/* 3IMAGES */
+/* 3IMAGES */
+
+#img {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+#img1 {
+    background-image: url(/public/img/services/service-1.jpg);
+    background-size: 90%;
+    position: relative;
+    height: 7em;
+    background-repeat: no-repeat;
+}
+
+#img2 {
+    background-image: url(/public//img/services/service-2.jpg);
+    background-size: 90%;
+    position: relative;
+    height: 7em;
+    background-repeat: no-repeat;
+}
+
+#img3 {
+    background-image: url(/public//img/services/service-3.jpg);
+    background-size: 90%;
+    position: relative;
+    height: 7em;
+    background-repeat: no-repeat;
+}
+
+#img h4 {
+    display: flex;
+    position: absolute;
+    justify-content: center; 
+    color: white;
+}
+
+/* transition hover */
+#img h4 {
+    position: relative;
+    max-width: max-content;
+
+}
+
+#img h4::before {
+    content: "";
+    width: 120%;
+    position: absolute;
+    background-color: white;
+    transition: 1s;
+    left: -10%;
+    height: 2px;
+    bottom: -10px;
+    margin-top: 3em;
+}
+
+#img h4:hover:before {
+    content: "";
+    width: 0;
+    left: 50%;;
+}
+
+/* 3IMAGES */
+/* 3IMAGES */
+
+
+
+
+
