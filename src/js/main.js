@@ -1,0 +1,1 @@
+import './../../src/js/modules/fonction.js';

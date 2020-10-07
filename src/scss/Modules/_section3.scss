@@ -1,0 +1,112 @@
+.section3 {
+    .photo {
+        background-image: url(../../../public/img/cta-bg.jpg);
+        background-repeat:  no-repeat;
+        background-position: 75%;
+        height: 500px;
+        background-size: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 50px;
+        h1 {
+            color: white;
+        }
+        button {
+            color: white;
+            background-color: red;
+            margin-right: 600px;
+            margin-left: 600px;
+            border: none;
+            padding: 5px;
+            border-radius: 5px;
+        }
+    }
+    .container {
+        background-color: white;
+        height: 500px;
+        .carousel {
+            height: 500px;
+        }
+    }
+}
+
+.container {
+    h3 {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+}
+.carousel-inner {
+    display: flex;
+    align-items: center;
+    margin-left: 150px;
+    .carousel-item {
+        width: 75%;
+        .card {
+            border: none;
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            width: 250px;
+            img{
+                height: 200px;
+                width: 225px;
+                margin-right: 75px;
+            }
+            .card-body {
+                display: flex;
+                flex-direction: column;
+                .nom-prod {
+                    font-weight: bold;
+                    padding-bottom: 5px;
+                }
+                .prix {
+                    font-weight: bold;
+                    color: red;
+                }
+            }
+        }
+    }    
+}
+
+.réduit {
+    display: flex;
+    justify-content: center;
+    .réduc {
+        border-radius: 50%;
+        background-color: red;
+        height: 50px;
+        width: 50px;
+        margin-right: 10px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .Sale {
+            color: white;
+        }
+    }
+    .div-prix {
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+        height: 50px;
+        margin-top: -50px;
+        margin-left: 20px;
+        .nom-prod {
+            font-weight: bold;
+            padding-bottom: 5px;
+        }
+        .prix {
+            font-weight: bold;
+            color: red;
+        }
+        .prix-barré {
+            text-decoration: line-through;
+            color: rgba(0, 0, 0, 0.336);
+            margin-right: 5px;
+        }
+    }
+}
