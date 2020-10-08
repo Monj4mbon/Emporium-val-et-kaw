@@ -15,7 +15,7 @@
     <div class="logo">
         <img src="./public/img/logo.png" alt="">
     </div>
-    <nav>
+    <nav class="active">
       <ul class="nav">
         <li><a href="#">HOME</a></li>
         <li><a href="#">PRODUCT</a></li>
@@ -39,7 +39,7 @@
     <h3>Shop at</h3>
     <img src="public/img/logo.png" alt="">
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias qui libero hic <br> architecto beatae iusto possimus nesciunt ab ipsam exercitationem.</p>
-    <button>SALE ITEMS</button>
+    <button> <a href="#Recents">SALE ITEMS</a></button> 
   </section>
   <!-- BANNER -->
   <!-- 3 IMAGES -->
@@ -57,6 +57,242 @@
 
   <!-- 3 IMAGES -->
 
+   <!-- section vente -->
+   <section class="vente">
+      <!-- titre -->
+      <div class="titre" id="Recents">
+          <h3>Recent products</h3>
+      </div>
+      <!-- 1e ligne -->
+      <div class="lignes">
+          <!-- cards gauche -->
+          <div class="cards">
+              <img src="./public/img/products_mini/product-luxry-sofa.jpg" alt="Luxury Sofa">
+              <div class="cards-écrits">
+                  <span class="nom-prod">Luxury Sofa</span>
+                  <span class="prix">$600.00</span>
+              </div>
+          </div>
+          <!-- cards milieu -->
+          <div class="cards">
+              <img src="./public/img/products_mini/product-gloves.jpg" alt="Leather gloves">
+              <div class="cards-écrits-réduc">
+                  <div class="réduc">
+                      <span class="Sale">SALE!</span>
+                  </div>
+                  <div class="div-prix">
+                      <span class="nom-prod">Leather gloves</span>
+                      <p><span class="prix-barré">$34.00</span><span class="prix">$27.00</span></p>
+                  </div>
+              </div>
+          </div>
+          <!-- cards droite -->
+          <div class="cards">
+              <img src="./public/img/products_mini/product-cups.jpg" alt="Colorfum Bowl">
+              <div class="cards-écrits">
+                  <span class="nom-prod">Colorfum Bowl</span>
+                  <span class="prix">$18.00</span>
+              </div>
+          </div>
+      </div>
+  
+      <!-- 2e ligne -->
+      <div class="lignes">
+          <!-- cards gauche -->
+          <div class="cards">
+              <img src="./public/img/products_mini/product-bag.jpg" alt="Women Bag">
+              <div class="cards-écrits-réduc">
+                  <div class="réduc">
+                      <span class="Sale">SALE!</span>
+                  </div>
+                  <div class="div-prix">
+                      <span class="nom-prod">Women Bag</span>
+                      <p><span class="prix-barré">$420.00</span><span class="prix">$350.00</span></p>
+                  </div>
+                  
+              </div>
+          </div>
+          <!-- cards milieu -->
+          <div class="cards">
+              <img src="./public/img/products_mini/product-tshitr.jpg" alt="Minimal T-Shirt">
+              <div class="cards-écrits">
+                  <span class="nom-prod">Minimal T-Shirt</span>
+                  <span class="prix">$15.00</span>
+              </div>
+          </div>
+          <!-- cards droite -->
+          <div class="cards">
+              <img src="./public/img/products_mini/product-plates.jpg" alt="Plates Set">
+              <div class="cards-écrits">
+                  <span class="nom-prod">Plates Set</span>
+                  <span class="prix">$30.00</span>
+              </div>
+          </div>
+      </div>
+  
+      <!-- 3e ligne -->
+      <div class="lignes">
+          <!-- cards gauche -->
+          <div class="cards">
+              <img src="./public/img/products_mini/product-modern-sofa.jpg" alt="Modern Sofa">
+              <div class="cards-écrits">
+                  <span class="nom-prod">Modern Sofa</span>
+                  <span class="prix">$900.00</span>
+              </div>
+          </div>
+          <!-- cards milieu -->
+          <div class="cards">
+              <img src="./public/img/products_mini/product-bed.jpg" alt="Bed Linen">
+              <div class="cards-écrits">
+                  <span class="nom-prod">Bed Linen</span>
+                  <span class="prix">$79.00</span>
+              </div>
+          </div>
+          <!-- cards droite -->
+          <div class="cards">
+              <img src="./public/img/products_mini/product-shoes.jpg" alt="Minimal Shoes">
+              <div class="cards-écrits">
+                  <span class="nom-prod">Minimal Shoes</span>
+                  <span class="prix">$60.00</span>
+              </div>
+          </div>
+      </div>
+    </section>
+  
+    <!-- section photo + carousel  -->
+    <section class="section3">
+        <div>
+            <h1>Discover Thousands Of Great Products</h1>
+            <button>LEARN MORE</button>
+        </div>
+    </section>
+    <div class="container my-4">
+      <h3>Hot Fashion Products</h3>
+      <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
+        <div class="controls-top">
+          <a class="btn-floating" href="#multi-item-example" data-slide="prev"><i class="fa fa-chevron-left"></i></a>
+          <a class="btn-floating" href="#multi-item-example" data-slide="next"><i class="fa fa-chevron-right"></i></a>
+        </div>
+        <ol class="carousel-indicators">
+          <li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
+          <li data-target="#multi-item-example" data-slide-to="1"></li>
+          <li data-target="#multi-item-example" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card mb-2">
+                  <img class="card-img-top" src="./public/img/products_mini/product-luxry-sofa.jpg"
+                    alt="Card image cap">
+                  <div class="card-body">
+                      <span class="nom-prod">Luxury Sofa</span>
+                      <span class="prix">$600.00</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 clearfix d-none d-md-block">
+                <div class="card mb-2">
+                  <img class="card-img-top" src="./public/img/products_mini/product-gloves.jpg"
+                    alt="Card image cap">
+                  <div class="card-body réduit">
+                      <div class="réduc">
+                          <span class="Sale">SALE!</span>
+                      </div>
+                      <div class="div-prix">
+                          <span class="nom-prod">Leather Gloves</span>
+                          <p><span class="prix-barré">$34.00</span><span class="prix">$27.00</span></p>
+                      </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 clearfix d-none d-md-block">
+                <div class="card mb-2">
+                  <img class="card-img-top" src="./public/img/products_mini/product-cups.jpg"
+                    alt="Card image cap">
+                  <div class="card-body">
+                      <span class="nom-prod">Colorful Bowl</span>
+                      <span class="prix">$18.00</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card mb-2">
+                  <img class="card-img-top" src="./public/img/products_mini/product-bag.jpg"
+                    alt="Card image cap">
+                  <div class="card-body réduit">
+                      <div class="réduc">
+                          <span class="Sale">SALE!</span>
+                      </div>
+                      <div class="div-prix">
+                          <span class="nom-prod">Women Bag</span>
+                          <p><span class="prix-barré">$420.00</span><span class="prix">$350.00</span></p>
+                      </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 clearfix d-none d-md-block">
+                <div class="card mb-2">
+                  <img class="card-img-top" src="./public/img/products_mini/product-tshitr.jpg"
+                    alt="Card image cap">
+                  <div class="card-body">
+                      <span class="nom-prod">Minimal T-Shirt</span>
+                      <span class="prix">$15.00</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 clearfix d-none d-md-block">
+                <div class="card mb-2">
+                  <img class="card-img-top" src="./public/img/products_mini/product-plates.jpg"
+                    alt="Card image cap">
+                  <div class="card-body">
+                      <span class="nom-prod">Plates Set</span>
+                      <span class="prix">$30.00</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card mb-2">
+                  <img class="card-img-top" src="./public/img/products_mini/product-modern-sofa.jpg" alt="Card image cap">
+                  <div class="card-body">
+                      <span class="nom-prod">Modern Sofa</span>
+                      <span class="prix">$900.00</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 clearfix d-none d-md-block">
+                <div class="card mb-2">
+                  <img class="card-img-top" src="./public/img/products_mini/product-bed.jpg"
+                    alt="Card image cap">
+                  <div class="card-body">
+                      <span class="nom-prod">Bed Linen</span>
+                      <span class="prix">$79.00</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 clearfix d-none d-md-block">
+                <div class="card mb-2">
+                  <img class="card-img-top" src="./public/img/products_mini/product-shoes.jpg"
+                    alt="Card image cap">
+                  <div class="card-body">
+                      <span class="nom-prod">Minimal Shoes</span>
+                      <span class="prix">$60.00</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
   <!-- FICHES -->
   <!-- FICHES -->

@@ -1,0 +1,230 @@
+.section3 {
+        background-image: url(../../../public/img/cta-bg.jpg);
+        background-repeat:  no-repeat;
+        background-position: 75%;
+        height: 500px;
+        background-size: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 4em;
+        margin-top: 4em;
+        h1 {
+            color: white;
+        }
+        button {
+            color: white;
+            background-color: rgb(190, 75, 75);;
+            margin-right: 600px;
+            margin-left: 600px;
+            margin-top: 1em;
+            border: none;
+            padding: 0.5em 1.5em;
+            border-radius: 5px;
+        }
+    }
+    .container {
+        background-color: white;
+        height: 500px;
+        .carousel {
+            height: 500px;
+        }
+}
+
+.container {
+    h3 {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+}
+.carousel-inner {
+    display: flex;
+    align-items: center;
+    margin-left: 150px;
+    .carousel-item {
+        width: 75%;
+        .card {
+            border: none;
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            width: 250px;
+            img{
+                height: 200px;
+                width: 225px;
+                margin-right: 75px;
+            }
+            .card-body {
+                display: flex;
+                flex-direction: column;
+                .nom-prod {
+                    font-weight: bold;
+                    padding-bottom: 5px;
+                }
+                .prix {
+                    font-weight: bold;
+                    color: rgb(190, 75, 75);;
+                }
+            }
+        }
+    }    
+}
+
+.réduit {
+    display: flex;
+    justify-content: center;
+    .réduc {
+        border-radius: 50%;
+        background-color: rgb(190, 75, 75);;
+        height: 50px;
+        width: 50px;
+        margin-right: 10px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .Sale {
+            color: white;
+        }
+    }
+    .div-prix {
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+        height: 50px;
+        margin-top: -50px;
+        margin-left: 20px;
+        .nom-prod {
+            font-weight: bold;
+            padding-bottom: 5px;
+        }
+        .prix {
+            font-weight: bold;
+            color: rgb(190, 75, 75);;
+        }
+        .prix-barré {
+            text-decoration: line-through;
+            color: rgba(0, 0, 0, 0.336);
+            margin-right: 5px;
+        }
+    }
+}
+
+@media (min-width: 320px) and (max-width: 600px) {
+    .section3 {
+        .photo {
+            height: 500px;
+            margin-bottom: 50px;
+            button {
+                margin-right: 10px;
+                margin-left: 10px;
+                padding: 5px;
+                border-radius: 5px;
+                font-size: xx-small;
+            }
+        }
+        .container {
+            height: 500px;
+            .carousel {
+                height: 500px;
+            }
+        }
+    }
+    
+    .container {
+        h3 {
+            margin-bottom: 30px;
+        }
+    }
+    .carousel-inner {
+        margin-left: 150px;
+            .card {
+                width: 250px;
+                img{
+                    height: 200px;
+                    width: 225px;
+                    margin-right: 75px;
+                }
+                    .nom-prod {
+                        padding-bottom: 5px;
+                    }
+                }
+            }
+        }    
+        .réduc {
+            height: 50px;
+            width: 50px;
+            margin-right: 10px;
+        }
+        .div-prix {
+            width: 200px;
+            height: 50px;
+            margin-top: -50px;
+            margin-left: 20px;
+            .nom-prod {
+                padding-bottom: 5px;
+            }
+            .prix-barré {
+                margin-right: 5px;
+            }
+        }
+
+@media (min-width: 601px) and (max-width: 1024px) {
+    .section3 {
+        .photo {
+            height: 500px;
+            margin-bottom: 50px;
+            button {
+                // margin-right: 290px;
+                margin-left: 280px;
+                padding: 5px;
+                border-radius: 5px;
+                width: 150px;
+            }
+        }
+        .container {
+            height: 500px;
+            .carousel {
+                height: 500px;
+            }
+        }
+    }
+    
+    .container {
+        h3 {
+            margin-bottom: 30px;
+        }
+    }
+    .carousel-inner {
+        margin-left: 5px;
+            .card {
+                width: 75px;
+                img{
+                    height: 25px;
+                    width: 50px;
+                    margin-right: 15px;
+                }
+                    .nom-prod {
+                        padding-bottom: 5px;
+                    }
+                }
+            }
+        }    
+        .réduc {
+            height: 50px;
+            width: 10px;
+            margin-right: 10px;
+        }
+        .div-prix {
+            width: 65px;
+            height: 50px;
+            margin-top: -50px;
+            margin-left: 20px;
+            .nom-prod {
+                padding-bottom: 5px;
+            }
+            .prix-barré {
+                margin-right: 5px;
+            }
+        }

@@ -1,20 +1,44 @@
+/* CHANGE COLOR */
+/* CHANGE COLOR */
+
 let body = document.querySelectorAll('body')[0];
-console.log(body);
 let colorW = document.querySelector('#color1');
 let colorB = document.querySelector('#color2');
-console.log(colorW);
-
-let nav = document.querySelectorAll('.nav li a');
+let p = document.querySelectorAll('header')[0];
+let nav = document.querySelectorAll('a');
+let logo = document.querySelector('.logo');
 
 console.log(nav);
 
 colorB.addEventListener("click", () => {
     body.style = "background-color: black";
+    nav.style = "color: red";
 });
 
 colorW.addEventListener("click", () => {
     body.style = "background-color: white";
 });
+
+/* CHANGE COLOR */
+/* CHANGE COLOR */
+
+/* ZOOM FOTO */
+/* ZOOM FOTO */
+let zoom = document.getElementsByClassName('cards');
+let tabZoom = Array.from(zoom);
+tabZoom.forEach(element => {
+    element.children[0].addEventListener('mouseover', () => {
+        element.children[0].style = 'height:400px;width:400px';
+        element.children[0].style.transition = "1.5s ease";
+    });
+    element.children[0].addEventListener('mouseout', () => {
+        element.children[0].style = 'height:200px;width:250px';
+        element.children[0].style.transition = "1s ease";
+    });
+});
+/* ZOOM FOTO */
+/* ZOOM FOTO */
+
 
 
 /* MODAL */
@@ -80,4 +104,8 @@ btnIn.addEventListener("click", () => {
 });
 /* MODAL */
 /* MODAL */
+
+ 
+/* MEDIA QUERIES NAV */
+
 

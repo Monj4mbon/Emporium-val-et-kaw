@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 /* font-family: 'Roboto', sans-serif; */
 
+
+
+
 body {
     background-color: white;
     font-family: 'Roboto', sans-serif;
@@ -61,6 +64,10 @@ header .logo {
     background: black;
     border: 0.2em solid whitesmoke;
     margin-right: 10px;
+}
+
+#menu-toggle {
+    display: none;
 }
 
 /* js */
@@ -193,6 +200,10 @@ header .logo {
     color: red;
     padding-top: 3em;
     font-size: 2.5em;
+}
+
+.banner a {
+    color: whitesmoke;
 }
 
 .banner img {
@@ -342,23 +353,17 @@ header .logo {
     border-radius: 8px;
 }
 
-.fiches:nth-child(2) {
+.fiches:hover{
     background-color: rgb(209, 79, 79);
     color: white;
 }
 
-.fiches button:nth-child(2) {
+.fiches button:hover {
     background-color: rgb(196, 196, 196);
 }
 
-#pWhite {
-    color:white;
-}
 
-#btnWhite {
-    background-color: whitesmoke;
-    color: black;
-}
+
 
 
 /* FICHES */
@@ -400,3 +405,162 @@ footer button {
 /* FOOTER */
 /* FOOTER */
 
+
+@media only screen and (max-width: 1024px) {
+    
+    nav {
+        display: none;
+        width: 100%;
+        height: 100vh;
+        padding: 10px;
+        top: 110px;
+        left: 0%;
+        transition: 0.5s;
+        background-color: whitesmoke;
+        font-size: 1.3em;
+    }
+    
+    nav.active {
+        display: block;
+    } 
+    nav a {
+        padding: 1em 0em;
+    }
+
+    nav li:hover {
+        background-color: yellow;
+    }
+
+    .nav {
+        display: block;
+        text-align: center;
+    }
+
+    .nav li {
+        border-bottom: 1px solid rgba(128, 128, 128, 0.342);
+    }
+
+    #menu-toggle {
+        display: block;
+        cursor: pointer;
+        text-align: center;
+        font-size: 2em;
+    }
+
+
+    .banner {
+        background-image: url(../../../public/img/slider-1.jpg);
+        width: 90%;
+        height: 270px;
+        background-size: cover;
+        border-radius: 10px;
+        background-repeat: repeat;
+        margin: auto;
+        opacity: 0.5;
+        margin-top: 1em;
+        padding-top: 0;
+        padding-left: 0; 
+        text-align: center;
+    }
+    
+    .banner h3 {
+        color: rgb(209, 79, 79);
+        font-size: 1.5em;
+        text-transform: uppercase;
+        padding-top: 20px; 
+    }
+
+    #img {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 80%;
+        padding-left: 50px;
+        margin: auto;
+        margin-top: 2em;
+        margin-bottom: 2em;
+        text-align: center;
+    }
+    
+    #img1 {
+        display: flex;
+        flex-direction: column;
+        background-image: url(/public/img/services/service-1.jpg);
+        background-size: 100%;
+        position: relative;
+        height: 7em;
+        background-repeat: no-repeat;
+        opacity: 2;
+    }
+    
+    #img1:hover {
+        opacity: 1;
+    }
+    
+    #img2 {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        background-image: url(/public//img/services/service-2.jpg);
+        background-size: 100%;
+        width: 90%;
+        margin:auto;
+        position: relative;
+        height: 7em;
+        background-repeat: no-repeat;
+        margin: 0;
+        margin-top: 0;
+    }
+    
+    #img3 {
+        display: flex;
+        flex-direction: column;
+        background-image: url(/public//img/services/service-3.jpg);
+        background-size: 100%;
+        position: relative;
+        height: 7em;
+        background-repeat: no-repeat;
+    }
+    
+    #img h4 {
+        position: absolute;
+        color: white;
+    }
+    
+    /* transition hover */
+    #img h4 {
+        position: relative;
+        max-width: max-content;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 100;
+        font-size: 1.5em;
+    
+    }
+    
+    #img h4::before {
+        content: "";
+        width: 130%;
+        position: absolute;
+        background-color: white;
+        transition: 1s;
+        left: -15%;
+        height: 1px;
+        bottom: -10px;
+        margin-top: 3em;
+    }
+    
+    #img h4:hover:before {
+        content: "";
+        width: 20%;
+        left: 40%;;
+    }
+
+
+    #fiches {
+        display: block;
+    }
+
+    #fiches p {
+        font-size: 1.5;
+    }
+}
